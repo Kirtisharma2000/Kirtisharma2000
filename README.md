@@ -36,5 +36,5 @@
 
 ## 📬 Connect with Me
 
-[LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/kirti-sharma-bba460245)
-[Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:kskirtisharma2000@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/kirti-sharma-bba460245)
+[![Email](https://img.shields.io/badge/Email-red?style=flat&logo=gmail)](mailto:kskirtisharma2000@gmail.com)
