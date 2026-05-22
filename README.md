@@ -10,7 +10,7 @@
 
 **ML & Data:** Python · Scikit-learn · Pandas · NumPy · TF-IDF · NLP  
 **Deep Learning:** Keras · TensorFlow · ANN · CNN  
-**Dev Tools:** Flask · Streamlit · Jupyter · Git · VS Code
+**Dev Tools:** Flask · Streamlit · Jupyter · Git · VS Code · Rasa
 
 ---
 
