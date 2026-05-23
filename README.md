@@ -4,10 +4,6 @@
 
 ### ML Developer · NLP · AI Systems · Open to Internships and entry-level roles
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kirti-sharma-bba460245)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kskirtisharma2000@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kirtisharma2000)
-
 </div>
 
 ---
@@ -127,7 +123,7 @@ I completed a **9-month AI minor from IIT Ropar** covering ML, deep learning, NL
 
 ## 🤝 Let's Connect
 
-I'm open to remote internships, fresher ML roles, freelance AI projects, or just a good conversation about AI.
+I'm open to internships, fresher ML roles, freelance AI projects, or just a good conversation about AI.
 
 <div align="center">
 
