@@ -2,7 +2,7 @@
 
 # Hey, I'm Kirti Sharma 👋
 
-### ML Developer · NLP · AI Systems · Open to Internships and entry-level roles
+### ML Developer · NLP · AI Systems · Open to Internships & Fresher Roles
 
 </div>
 
@@ -16,7 +16,7 @@ I completed a **9-month AI minor from IIT Ropar** covering ML, deep learning, NL
 
 - 🔭 Currently building a **Chatbot with Rasa** and a **Book Recommender System**
 - 🌱 Learning **deployment** and **MLOps basics**
-- 💬 Ask me about **Python, Scikit-learn, NLP, Flask**
+- 💬 Ask me about **Python, Scikit-learn, NLP, Flask, XGBoost**
 - 📫 Reach me at **kskirtisharma2000@gmail.com**
 - ⚡ Looking for **internships & fresher roles in ML/AI**
 
@@ -29,6 +29,7 @@ I completed a **9-month AI minor from IIT Ropar** covering ML, deep learning, NL
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=for-the-badge&logoColor=white)
 
 ### Deep Learning
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -45,42 +46,47 @@ I completed a **9-month AI minor from IIT Ropar** covering ML, deep learning, NL
 
 ## 🚀 Projects
 
-### 🔍 SMS / Email Spam Classifier
-> Classifies messages as spam or ham with **97% accuracy** using an ensemble Voting Classifier
+### 🔍 [SMS / Email Spam Classifier](https://github.com/Kirtisharma2000/sms-spam-classifier)
+Classifies messages as spam or ham with **97% accuracy** using an ensemble Voting Classifier
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-154F5B?style=flat&logoColor=white)
 
-- Built full text preprocessing pipeline — tokenization, stopword removal, stemming, TF-IDF
-- Combined SVM + Decision Tree + Extra Trees using a **Voting Classifier**
-- Deployed as a live interactive web app with Streamlit
+- Full NLP pipeline: tokenization, stopword removal, stemming, TF-IDF vectorization
+- Combined SVM + Decision Tree + Extra Trees into a **Voting Classifier**
+- Deployed as a live interactive web app using Streamlit
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kirtisharma2000/sms-spam-classifier)
 
 ---
 
-### 🧠 AI Emotion Tracker
-> Predicts emotional state from journal text + metadata and recommends what to do
+### 🧠 [AI Emotion Tracker](https://github.com/Kirtisharma2000/AI_emotion_tracker)
+Predicts emotional state from journal text + metadata and recommends personalised actions
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-FF6600?style=flat&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
-- Hybrid ML + rule-based system using Logistic Regression + Random Forest
-- Includes **uncertainty modeling** — flags low-confidence predictions
-- Ran an ablation study: text + metadata outperforms text-only approach
+- Combined TF-IDF (5000 features, bigrams) with metadata via **sparse matrix stacking**
+- Used **Logistic Regression** (tuned with GridSearchCV) for emotion classification
+- Used **XGBRegressor** (tuned with RandomizedSearchCV) for intensity prediction (scale 1–5)
+- Built a **rule-based decision engine** — maps state + intensity + context to recommended actions with timing
+- Added **uncertainty modeling** — flags predictions with confidence below 0.55
+- Ran **3-way ablation study**: combined text + metadata outperformed both text-only and metadata-only baselines
+- Deployed with Flask backend and HTML/CSS frontend
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kirtisharma2000/AI_emotion_tracker)
 
 ---
 
-### 🤖 Chatbot with Rasa *(In Progress)*
-> Conversational AI chatbot with NLU pipeline, Flask backend, and custom frontend
+### 🤖 [Chatbot with Rasa](https://github.com/Kirtisharma2000/Chatbot_with_Rasa)
+Conversational AI chatbot with NLU pipeline, Flask backend, and custom frontend *(In Progress)*
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Rasa](https://img.shields.io/badge/Rasa-5A17EE?style=flat&logo=rasa&logoColor=white)
+![Rasa](https://img.shields.io/badge/Rasa-5A17EE?style=flat&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 
 [![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kirtisharma2000/Chatbot_with_Rasa)
@@ -88,7 +94,7 @@ I completed a **9-month AI minor from IIT Ropar** covering ML, deep learning, NL
 ---
 
 ### 📚 Book Recommender *(Coming Soon)*
-> Personalized recommendations using collaborative filtering and cosine similarity
+Personalized recommendations using collaborative filtering and cosine similarity
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
@@ -127,7 +133,7 @@ I'm open to internships, fresher ML roles, freelance AI projects, or just a good
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kskirti-sharma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kirti-sharma-bba460245)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kskirtisharma2000@gmail.com)
 
 </div>
