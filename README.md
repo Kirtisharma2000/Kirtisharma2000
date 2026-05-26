@@ -93,13 +93,20 @@ Conversational AI chatbot with NLU pipeline, Flask backend, and custom frontend 
 
 ---
 
-### 📚 Book Recommender *(Coming Soon)*
-Personalized recommendations using collaborative filtering and cosine similarity
+### 📚 [Book Recommender System](https://github.com/Kirtisharma2000/Book_recommender_system)
+> Two-engine recommendation system — popularity-based + collaborative filtering on 1.1M+ real ratings
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
 
+- Processed **1.1M+ ratings** across 271,360 books and 278,858 users (Amazon Book-Crossing dataset)
+- Built user-item pivot table (706 books × 810 active users); applied **cosine similarity** to generate top-5 personalized recommendations
+- Input `1984` → returns `Animal Farm`, `The Handmaid's Tale`, `Brave New World` — based on real user rating patterns
+- Popularity engine surfaces top 50 books filtered by minimum 250 ratings and average score; deployed via **Flask** + HTML/CSS
+
+[![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Kirtisharma2000/Book_recommender_system)
 ---
 
 ## 📊 GitHub Stats
